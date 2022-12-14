@@ -1,0 +1,102 @@
+* {
+  border: px solid black;
+}
+
+#jf 
+
+/*-- Navbar Section Start --*/
+
+ul{
+  margin:0;
+  padding:0;
+  display:flex;
+  }
+/*
+@media(min-width: 500px){
+  .nav-item{
+    list-style:none;
+    margin:auto 50px;
+    transition:0.5s;
+    font-family: 'Ubuntu', sans-serif;
+  }
+
+  .nav-link{
+    text-decoration:none;
+    padding:5px;
+    font-size:20px;
+    font-family: sans-serif;
+    text-transform:uppercase;
+    transition:0.5s;
+  }
+
+  .nav-link:hover{
+    transform:scale(1.8);
+    opacity:1;
+    filter:blur(0);
+    text-decoration:none;
+  }*/
+
+/*-- Navbar Section End --*/
+
+#nav-link{
+  font-size: 1.4rem;
+}
+#home{
+  background-image: url(https://images.pexels.com/photos/943096/pexels-photo-943096.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  height: 100vh;
+  width: 100vh;
+  min-width: ;
+  background-size: cover;
+}
+#home{
+  margin-top: 3rem;
+  font-family: 'Diplomata SC', cursive;
+  padding: 1rem;
+}
+#home h1 {
+  font-size: 8vh;
+}
+#home h6 {
+  font-style: italic;
+  color: #61531A;
+  font-size: 2.5vh;
+}
+
+#home h2 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5vh;
+  margin-top: 1rem;
+}
+
+#about {
+  width: 50%;
+  border: 2px solid #fcfcfc;
+  padding: 1rem;
+  margin: 3rem;
+}
+
+#about h1 {
+  font-size: 4rem;
+  margin-bottom: 2rem;
+  
+  width: auto;
+  font-family: 'Cinzel', serif;
+  font-weight: 800;
+}
+#about h5 {
+  font-size: 1.5rem;
+  color: #61531A;
+  width: auto;
+   font-family: 'Ubuntu', sans-serif;
+   margin-bottom: 2rem;
+   font-family: 'Cinzel', serif;
+}
+
+#projects-main {
+font-family: 'Cinzel', serif;
+}
+
+#contact {
+  background-image: url(https://marzena-szopinska.github.io/Capstone_Portfolio/images/bg.jpg);
+  height: 100vh;
+}
